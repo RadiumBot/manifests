@@ -23,12 +23,8 @@
   <project groups="pdk" name="CyanogenMod/android_device_generic_goldfish" path="device/generic/goldfish" revision="dd14cf865c04bf9d15ca2c60409f1b131e9818f6"/>
   <project groups="pdk" name="CyanogenMod/android_device_generic_mips" path="device/generic/mips" revision="7caf8d5796ec0f59b2e1be865b76c5a5ad5707e6"/>
   <project groups="device" name="CyanogenMod/android_device_google_atv" path="device/google/atv" revision="291a15e6a36eddd8bc4434cc8f4a8b21d7cd44f8"/>
-  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" revision="3944e85eeeb065c8c67ffb3c912d2c49c1d486fa"/>
-  <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" revision="56afe1ee7fda9540b8c164d6bd8b08ddef55cba9"/>
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="ad6fe8d33943f2b5e83b2ff7ad0c821161a0d233"/>
   <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" revision="a56e687a2869b0818b74323bb7b38eafa58bf0c0"/>
-  <project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" revision="51c77ea679674657e4f0c22beb0b081be805b11e"/>
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="30449b1db4372382e707c85f65c7f4c562594ed8"/>
   <project name="CyanogenMod/android_external_JakeWharton_butterknife" path="external/JakeWharton/butterknife" revision="dacbeabfb057b4a3cf8b594cd1f5b7460957bc3c"/>
   <project name="CyanogenMod/android_external_android-mock" path="external/android-mock" revision="4cc911af4398e18ddd9435c9cbfcf2a89cee81ff"/>
   <project name="CyanogenMod/android_external_android-visualizer" path="external/android-visualizer" revision="38d5cf3f9345faba0d97a32ab37dc97a2f36cf1a"/>
@@ -201,7 +197,6 @@
   <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" revision="2af40fd4742e7397e05756b47ad5ac1b7ef8c640"/>
   <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" revision="3c91c48cda5920272d8051851c5c7eb8167efee0"/>
   <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" revision="24da46262bf8091de6a57c344273fc7f3fe4b453"/>
-  <project name="CyanogenMod/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" revision="b3c43709fb685cba019028cce0793e6bfb63bad1"/>
   <project groups="pdk-java" name="CyanogenMod/android_libnativehelper" path="libnativehelper" revision="322f1fbad3b66e68048437fed0c9a42ed990d58f"/>
   <project name="CyanogenMod/android_packages_apps_AudioFX" path="packages/apps/AudioFX" revision="f091ef4dbb35ded2a15173614dcdbcbe9c0b0532"/>
   <project name="CyanogenMod/android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="3145a6aad3e4a7399251a8c8405d5bf2fe865864"/>
@@ -288,17 +283,8 @@
   <project name="CyanogenMod/external_android_support-prebuilt" path="external/android/support-prebuilt" revision="a88269c345c1ab38f101e44884a455c749f641b4"/>
   <project name="CyanogenMod/ion" path="external/koush/ion" revision="f03b6750b399c914102f09e03caf039fedc0a44b"/>
   <project name="DirtyUnicorns/android_packages_apps_Apollo" path="packages/apps/Apollo" revision="9fa40363f70cfd213b2fc93ee9fb25649507ea04"/>
-  <project name="Radium-Devices/Radium_jflte" path="kernel/samsung/jf" revision="6a3d06f8436e914828bc601d626853fb9f05eae7"/>
-  <project name="Radium-Devices/device_google_sprout-common" path="device/google/sprout-common" revision="517f7cd6fd2ab77eed357182934fb36ea75d9e52"/>
-  <project name="Radium-Devices/device_google_sprout4" path="device/google/sprout4" revision="829cd1ac1d63c0008cd24a26798cf91d4cf7ad80"/>
-  <project name="Radium-Devices/device_oneplus_bacon" path="device/oneplus/bacon" revision="49946a733bcc248cd3b32fd6dac10776f1918259"/>
-  <project name="Radium-Devices/device_samsung_jfltexx" path="device/samsung/jfltexx" revision="ae85c5cd1cc2cdd96485a5368b120effc94a8110"/>
   <project name="ResurrectionRemix/android_frameworks_webview" path="frameworks/webview" revision="f09fa8a49e2f16fb13e144c981f95dae376a96ec"/>
   <project name="SlimRoms/frameworks_opt_cards" path="frameworks/opt/cards" revision="857c1b59f2015177bd1b34155c4434e8bd498790"/>
-  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" revision="0e59948490a47765a64ff60825bf74d1ce27196a"/>
-  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" revision="0fa65adc4bbaf3e2c385d51d89669e105088f5af"/>
-  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" revision="de19fc2ecbb917ac13c337eb5a1a732bdb7721f1"/>
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="43657298a78b6486bac87eaca2fa0152c4380d0c"/>
   <project name="arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="uber" revision="e58e628b19af0aaf14ea1a876eace75c9269f672"/>
   <project name="arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="uber" revision="addfce38ffe98d02e9d6d1807705f13c9d3e8745"/>
   <project name="arm-eabi-6.0" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" remote="uber" revision="cb48cc9e836f6ebb9dd5f65f2eb85f9d528a3c2d"/>
